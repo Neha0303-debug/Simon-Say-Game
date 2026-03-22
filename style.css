@@ -1,0 +1,71 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width:23rem;
+    height:23rem;
+    border:2px solid black;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 5rem;
+    background-color: rgba(0, 0, 0, 0.071);
+}
+.box1 {
+    display: flex;
+    position:relative;
+    left:4.2rem;
+    top:2rem;
+}
+.box2 {
+    display: flex;
+    position: relative;
+    left:4.2rem;
+    top:4rem;
+}
+.Btn {
+    height: 8rem;
+    width:8rem;
+    border:1px solid black;
+    border-radius: 40% !important;
+}
+.green {
+    position: relative;
+    right:2rem;
+}
+.orange {
+    position: relative;
+    right:2rem;
+}
+
+.play {
+    position: absolute;
+    left:40rem;
+    bottom: 0.5rem;
+    width:6rem;
+
+}
+h1 {
+    margin-top: 2rem !important;
+}
+.blink {
+  animation: blinkEffect 0.3s ease-in-out 1; /* blinks 3 times */
+}
+
+@keyframes blinkEffect {
+  0%, 100% { background-color: inherit; }
+  50% { background-color: white; }
+} 
+
+@media (min-width:20rem) and (max-width:40rem){
+      .box {
+        margin: auto;
+    margin-top: 3rem;   
+}
+
+
+}
+ 
